@@ -1,0 +1,28 @@
+{
+    "name": "box-connector/php-sdk",
+    "version": "1.0.0",
+    "type": "library",
+    "description": "BOX PHP SDK",
+    "authors": [
+        {
+            "name": "Niraj Meegama",
+            "email": "nmeegama@gmail.com",
+            "homepage": "https://github.com/nmeegama"
+        },
+        {
+            "name": "Sajith Athukorala",
+            "email": "saji.athukorala@gmail.com",
+            "homepage": "https://github.com/SajithAthukorala"
+        }
+    ],
+    "require": {
+        "guzzle/guzzle": "3.9.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Box\\": ["src/", "src/Box"]
+        }
+    }
+
+
+}
